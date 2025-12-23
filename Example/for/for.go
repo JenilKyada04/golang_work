@@ -10,7 +10,7 @@ func main() {
 		i = i + 1
 	}
 
-	for n := range 6 {
+	for n := 0; n < 6; n++ {
 		if n%2 == 0 {
 			continue
 		}
